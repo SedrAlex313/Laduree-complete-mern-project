@@ -1,0 +1,24 @@
+.checkout-button {
+    background-color:transparent;
+    color: rgb(236, 169, 34);
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    display:inline-block;
+    margin-left: 3rem;
+    box-sizing: border-box;
+    outline: none;
+    border: 3px solid #dbae3b;
+    float: left;
+    cursor: pointer;
+}
+.checkout-button:hover{
+  
+    background-color:#dbae3b;
+    color: aliceblue;
+  
+
+}
