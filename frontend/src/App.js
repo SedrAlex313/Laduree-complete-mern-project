@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import SignIn from "./pages/Auth/SignIn";
 import SignUp from "./pages/Auth/SignUp/SignUp";
 import Cart from "./pages/Cart/Cart";
+import Waiter from "./pages/Administrators/waiter/Waiter";
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
               <Route path="/signUp"  element={<SignUp />} />
               <Route path="/cart"  element={<Cart />} />
 
-
+              {/* Waiter Route  */}
+              <Route path="/waiter"  element={<Waiter />} />
+           
 
            </Routes>
         </BrowserRouter>
