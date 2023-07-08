@@ -16,7 +16,7 @@
         width: 66%;
     }
 
-.main__container{
+.main__container2{
      background-image: url('../../assets/signin.jpeg');
      display:flex ;
      width: 100%;
@@ -31,7 +31,7 @@
  display: inline-flex;
  align-items: center;
  flex-direction: column;
- height: 70vh;
+ height: 50vh;
  width:30vw ;
  background: rgba((255), 255, 255, 0.25);
  box-shadow: 0 8px 32px 0 #9d696d;
@@ -43,8 +43,9 @@
  margin-bottom: 0;
 
 }
-.Initial__Text{
-    margin: 3rem 0 2rem  0;
+.Initial__Text1{
+    margin: 3rem 0 1rem  0;
+    font-size: 1.1rem;
     color: #d9ab20;
     
     

@@ -13,11 +13,11 @@ const SignIn = () => {
   return (
     
 
-         <div className='main__container'>
+         <div className='main__container2'>
             <Header />
 
              <div className='Glass__effect'>
-                <div className='Initial__Text'>
+                <div className='Initial__Text1'>
                     Log into your account
                 </div>
 

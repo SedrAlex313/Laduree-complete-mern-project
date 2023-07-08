@@ -3,7 +3,7 @@ import "./Home.css"
 import Header from '../../components/header/Header'
 const Home = () => {
   return (
-    <div className='main'>
+    <div id='home'>
       <Header/>
       <section className="container hero" >
         <div className='hero-text'>
