@@ -118,8 +118,8 @@
 }
 
 .slider-controler .swiper-button-next {
-  left: 58% !important;
-  transform: translateX(-58%) !important;
+  left: 65% !important;
+  transform: translateX(-65%) !important;
 }
 
 @media (max-width: 990px) {
@@ -135,7 +135,10 @@
     transform: translateX(-80%) !important;
   }
 }
-
+.slider-controler .swiper-button-prev {
+  left: 36% !important;
+  transform: translateX(-36%) !important;
+}
 @media (max-width: 990px) {
   .slider-controler .swiper-button-prev {
     left: 30% !important;
@@ -171,7 +174,7 @@
 
 .swiper-pagination {
   position: relative;
-  width: 15rem !important;
+  width: 25rem !important;
   bottom: 1rem;
 }
 
