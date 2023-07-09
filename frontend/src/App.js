@@ -5,7 +5,7 @@ import SignIn from "./pages/Auth/SignIn";
 import SignUp from "./pages/Auth/SignUp/SignUp";
 import Cart from "./pages/Cart/Cart";
 import Menu from "./pages/Menu/Menu";
-
+import Restaurant from "./pages/Restaurant/Restaurant";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
               <Route path="/signUp"  element={<SignUp />} />
               <Route path="/cart"  element={<Cart />} />
               <Route path="/Menu"  element={<Menu />} />
+              <Route path="/Restaurant" element={<Restaurant />} />
 
 
 

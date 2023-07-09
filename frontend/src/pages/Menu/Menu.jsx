@@ -32,7 +32,7 @@ function Menu() {
       {loading ? (
           <h1>Loading...</h1>
         ) : error ? (
-         < h1>Error: {error}</h1>
+         < h1>Error: {error.message}</h1>
         ) : (
       <Swiper 
         effect={'coverflow'}
